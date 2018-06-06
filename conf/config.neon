@@ -424,6 +424,9 @@ services:
 	errorFormatter.checkstyle:
 		class: PHPStan\Command\ErrorFormatter\CheckstyleErrorFormatter
 
+	errorFormatter.codeclimate:
+		class: PHPStan\Command\ErrorFormatter\CodeClimateErrorFormatter
+
 	errorFormatter.json:
 		class: PHPStan\Command\ErrorFormatter\JsonErrorFormatter
 		arguments:
